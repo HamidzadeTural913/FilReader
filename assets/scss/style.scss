@@ -1,0 +1,49 @@
+.container{
+    table{
+       width: 300px;
+       height: 150px;
+       display: none;
+       thead{
+           background-color: black;
+       }
+        th{
+            color: white;
+            
+        }
+    }
+    input{
+        display: none;
+    }
+    .drughere{
+        width: 300px;
+        height: 100px;
+        border: dashed 3px black;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        
+        strong{
+            opacity: .3;
+        }
+    }
+    .clickBtn{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        border: solid 2px green;
+        cursor: pointer;
+
+        strong{
+            opacity: .5;
+            color: green;
+        }
+    }
+}
+
+.d-block{
+    display: block;
+}

@@ -1,0 +1,64 @@
+.container table {
+  width: 300px;
+  height: 150px;
+  display: none;
+}
+
+.container table thead {
+  background-color: black;
+}
+
+.container table th {
+  color: white;
+}
+
+.container input {
+  display: none;
+}
+
+.container .drughere {
+  width: 300px;
+  height: 100px;
+  border: dashed 3px black;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+
+.container .drughere strong {
+  opacity: .3;
+}
+
+.container .clickBtn {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  border: solid 2px green;
+  cursor: pointer;
+}
+
+.container .clickBtn strong {
+  opacity: .5;
+  color: green;
+}
+
+.d-block {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
